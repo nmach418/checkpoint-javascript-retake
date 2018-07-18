@@ -32,3 +32,8 @@ function getAges(people) {
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
 
+function ifWdi(people) {
+  if (people.course = "WDI")
+  return people.course
+}
+  wdiStudents = people.filter(ifWdi)

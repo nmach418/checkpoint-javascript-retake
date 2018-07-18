@@ -21,8 +21,9 @@ var favoriteColors = []
 // #4: Create a `for` loop that adds each string in `colors` to `favoriteColors`.
 // Type your solution immediately below this line:
 
-for (var i = 0; i < colors; i++)
+for (var i = 0; i < colors.length; i++) {
     favoriteColors.push(colors[i]);
+}
 
 
 
